@@ -1,8 +1,9 @@
 
-
 function Login() 
 {
-	return <div>Login</div>
+	return <div className="login__container">
+		
+	</div>
 }
 
 

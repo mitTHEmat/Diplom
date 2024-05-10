@@ -16,11 +16,22 @@
 	position: relative;
 }
 
+.main__header-burgerMenu {
+	width: 30px;
+	height: 30px;
+	background-color: blue;
+}
+
 .main__header-programTag {
 	display: flex;
 	font-size: 24px;
 	font-weight: 600;
 	height: 30px;
+	margin-left: 20px;
+}
+
+.main__header-content {
+	display: flex;
 	margin-top: auto;
 	margin-bottom: auto;
 	margin-left: 20px;
@@ -29,9 +40,36 @@
 
 .main__header-authGroup {
 	display: flex;
+	height: 30px;
 	position: absolute;
 	right: 0;
 	margin-right: 20px;
+	vertical-align: center;
 }
 
-.
+
+.main__header-userName {
+	margin-right: 20px;
+	line-height: 30px;
+	position: relative;
+}
+
+.main__header-userName-menu {
+	position: absolute;
+
+	list-style-type: none;
+	margin: 5px 0;
+	padding: 0;
+	text-align: end;
+	background-color: rgb(145, 177, 196);
+	border: 1px solid grey;
+	width: 100%;
+}
+
+
+.main__header-avatar {
+	width: 30px;
+	height: 30px;
+	background-color: red;
+}
+
