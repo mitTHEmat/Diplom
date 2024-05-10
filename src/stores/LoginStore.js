@@ -5,6 +5,12 @@ class LoginStore {
 	constructor() {
 		makeAutoObservable(this)
 	}
+
+	
+
+
+
+
 }
 
 export default LoginStore;
