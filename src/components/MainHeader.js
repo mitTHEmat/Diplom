@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "../styles.css";
 
 function MainHeader() 
@@ -21,11 +22,11 @@ function MainHeader()
 					<span onClick={()=>setShowDropdown(!showDropdown)}>Имя пользователя</span>
 					{ showDropdown && 
 					<ul className="main__header-userName-menu">
-						<li onClick={()=>console.log('Выход')}>
-							<div>Выйти</div>
+						<li>
+							<Link to={"/login"}><div>Выйти</div></Link>
 						</li>
-						<li onClick={()=>console.log('Вход')}>
-							<div>Войти</div>
+						<li>
+							<Link to={"/login"}><div>Войти</div></Link>
 						</li>
 					</ul>}
 				</div>
